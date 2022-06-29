@@ -1,0 +1,14 @@
+@import url(../reset/reset.css);
+@import url(_navbar.css);
+@import url(_header.css);
+@import url(_shipping.css);
+@import url(_categories.css);
+@import url(_offer-price.css);
+@import url(owl.carousel.min.css);
+@import url(owl.theme.default.css);
+@import url(_products.css);
+@import url(_best-sellers.css);
+@import url(_brands.css);
+@import url(_footer.css);
+@import url(_page-two-breadcrumb.css);
+@import url(zoomy.css);

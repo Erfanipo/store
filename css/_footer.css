@@ -1,0 +1,48 @@
+footer.footer {
+    background-color: var(--crl-primary);
+} 
+
+footer.footer .custom-nav-footer a:hover {
+    color: rgb(213, 85, 59)!important;
+}
+
+footer.footer .instagram {
+    color: #ffa500;
+    transition:text-shadow 300ms;
+
+}
+footer.footer .instagram:hover {
+    text-shadow: 0 0 10px #ffa500;
+}
+
+footer.footer .telegram {
+    color: #006eff;
+    transition:text-shadow 300ms;
+}
+footer.footer .telegram:hover {
+    text-shadow: 0 0 10px #224bff;
+}
+
+footer.footer .twitter {
+    color: rgb(129, 129, 255);
+    transition:text-shadow 300ms;
+}
+footer.footer .twitter:hover {
+    text-shadow: 0 0 10px rgb(129, 129, 255);
+}
+
+footer.footer .rss {
+    color: rgb(153, 184, 17);
+    transition:text-shadow 300ms
+}
+footer.footer .rss:hover {
+    text-shadow: 0 0 10px rgb(153, 184, 17);
+}
+
+footer.footer .facebook {
+    color: rgb(47, 67, 255);
+    transition:text-shadow 300ms
+}
+footer.footer .facebook:hover {
+    text-shadow: 0 0 10px rgb(128, 140, 250);
+}

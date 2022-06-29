@@ -1,0 +1,123 @@
+.breadcrumb-item::before {
+    font-weight: 500;
+}
+
+.icons-title-product a:first-child:before {
+    content: 'اضافه به علاقه مندی ها';
+    font-size: 14px;
+    top: -2.3rem;
+    right: -70px;
+    position: absolute;
+    width: 151px;
+    background-color: #333;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: none;
+}
+
+.icons-title-product a:nth-child(2):before {
+    content: 'اشتراک گذاری کالا';
+    font-size: 14px;
+    top: -2.3rem;
+    right: -48px;
+    position: absolute;
+    width: 119px;
+    background-color: #333;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: none;
+}
+
+.icons-title-product a:nth-child(3):before {
+    content: 'اطلاع رسانی شگفت انگیز';
+    font-size: 14px;
+    top: -2.3rem;
+    right: -77px;
+    position: absolute;
+    width: 158px;
+    background-color: #333;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: none;
+}
+
+.icons-title-product a:hover::before {
+    display: block;
+} 
+
+.desc-product-page {
+    line-height: 1.8;
+}
+
+
+/*?----------/  nav tabs product /---------------*/
+
+.tabs-product-page .nav-tabs .nav-item.show .nav-link, .tabs-product-page .nav-tabs .nav-link.active {
+    border-top: 3px solid #007bff;
+}
+
+.expert-review-row {
+    margin-top: 5rem!important;
+}
+
+.expert-review p i {
+    top: 0;
+    right: -20px;
+}
+.expert-review :is(.expert-review-item-2,.expert-review-item-3) i {
+    top: .3rem;
+}
+
+.expert-review img {
+    max-width: 300px;
+    margin-block: .5rem;
+}
+
+
+.tab-content-product-page .technical p i {
+    vertical-align: -3px;
+}
+
+.tab-content-product-page .technical .technical-details div {
+    background-color: #efefef;
+}
+
+.technical .key {
+    width: 20%;
+} 
+
+.technical .value {
+    width: 80%;
+}
+
+@media (max-width: 768px) {
+    .technical .key {
+        width: 36%;
+    }
+    .technical .key,.technical .value {
+        font-size: 14px;
+    }
+}
+
+
+/*?----------/  comments section /---------------*/
+
+.comments-wrapper .login-for-comment i {
+    vertical-align: -3px;
+}
+
+.comments-wrapper img {
+    width: 20%;
+    border-radius: 50%;
+}
+
+.comments-wrapper ul li::before  {
+    content: "\2022";
+    color: #dc3545;
+    font-weight: bold;
+    width: .7em;
+    font-size: 1.2rem;
+}

@@ -1,0 +1,14 @@
+.shipping-item {
+    cursor: default;
+}
+
+.ads-wrapper img {
+    image-rendering: auto;
+    height: 100%!important;
+}
+
+@media (max-width: 765px) {
+    .custom-ads-item1,.custom-ads-item3 {
+        height: clamp(170px, 14vw, 14rem);
+    }
+}

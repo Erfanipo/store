@@ -1,0 +1,23 @@
+.custom-title-brands::after {
+ right: 125px;
+}
+.owl-stage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.custom-owl-carousel .card:hover {
+    box-shadow: none;
+    cursor: pointer;
+} 
+
+@media (max-width: 768px) {
+    .custom-owl-carousel .custom-card {
+        width: 290px;
+        margin: auto;
+    }
+    .custom-title-brands::after {
+        right: 87px;
+    }
+}

@@ -1,0 +1,40 @@
+.custom-best-sellers::after {
+    right: 162px;
+}
+
+.custom-best-sellers-img {
+    width: 30%;
+}
+
+.best-sellers {
+    line-height: 1.7;
+}
+
+.see-more {
+    top: 3.5rem;
+    left: 1.3rem;
+}
+
+.see-more a:hover {
+    color: #dc3545!important;
+}
+
+@media (max-width: 760px) {
+    .custom-card-best-sellers {
+        display: flex;
+        justify-content: center!important;
+        align-items: center!important;
+    }
+    .custom-best-sellers::after {
+        right: 155px;
+    }
+    .see-more {
+        top: 2.6rem;
+    }
+}
+
+@media (max-width: 650px) {
+    .custom-best-sellers::after {
+        right: 115px;
+    }
+}
